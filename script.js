@@ -21,8 +21,7 @@ $(document).ready(function () {
   // do this for every unique block
   $("#blockId1 .insideofInput").val(localStorage.getItem("blockId1"));
   $("#blockId2 .insideofInput").val(localStorage.getItem("blockId2"));
-
-  $("#currentDay").text(moment().format("dddd"));
+  $("#currentDay").text(moment().format("DD/MM/YYYY"));
 });
 
 // Moment.JS Time and Date
